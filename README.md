@@ -10,13 +10,13 @@ npm install https://github.com/trevonromanuik/battlenet-api/tarball/master --sav
 
 # How to use
 
-Simply `require()` the Battle.net API within your application:
+Simply `require()` the Battle.net API within your application and pass in a valid Battle.net API key:
 
 ```javascript
 var bnet = require('battlenet-api')(/* your API KEY here */);
 ```
 
-And then access the API methods to request data:
+Then you can access the API methods to request data:
 
 ```javascript
 bnet.wow.character.profile(params, callback);
@@ -24,7 +24,7 @@ bnet.wow.character.profile(params, callback);
 
 ## Battle.net API Key
 
-In order to access the Battle.net API, you must provide a valid Battle.net API key in when you `require()` the Battle.net API within your application.
+You can get a Battle.net API key here: https://dev.battle.net/
 
 # Documentation
 
