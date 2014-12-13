@@ -1,9 +1,9 @@
 {
-  "author": "Ben Weier <ben.weier@gmail.com> (https://github.com/benweier)",
+  "author": "Trevon Romanuik <trevon.romanuik@gmail.com> (https://github.com/trevonromanuik)",
   "name": "battlenet-api",
   "description": "A wrapper for the Battle.net API",
-  "version": "0.4.7",
-  "homepage": "https://github.com/benweier/battlenet-api",
+  "version": "1.0",
+  "homepage": "https://github.com/trevonromanuik/battlenet-api",
   "license": "MIT",
   "keywords": [
     "battlenet",
@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/benweier/battlenet-api.git"
+    "url": "git://github.com/trevonromanuik/battlenet-api.git"
   },
   "bugs": {
-    "url": "https://github.com/benweier/battlenet-api/issues"
+    "url": "https://github.com/trevonromanuik/battlenet-api/issues"
   },
   "main": "./lib/battlenet-api.js",
   "dependencies": {

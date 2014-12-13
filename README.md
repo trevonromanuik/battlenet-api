@@ -1,11 +1,10 @@
 # Battle.net API
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/benweier/battlenet-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A Node JS wrapper for the Battle.net API
 
 # Install
 
-Add `battlenet-api` to your application's `package.json` file and run:
+Add `https://github.com/trevonromanuik/battlenet-api` to your application's `package.json` file and run:
 
 ```
 npm install
@@ -13,7 +12,7 @@ npm install
 
 Alternatively:
 ```
-npm install battlenet-api --save
+npm install https://github.com/trevonromanuik/battlenet-api --save
 ```
 
 # How to use
@@ -21,7 +20,7 @@ npm install battlenet-api --save
 Simply `require()` the Battle.net API within your application:
 
 ```javascript
-var bnet = require('battlenet-api');
+var bnet = require('battlenet-api')(/*your API KEY here*/');
 ```
 
 And then access the API methods to request data:
@@ -32,11 +31,7 @@ bnet.wow.character.profile(obj, callback);
 
 ## Battle.net API Key
 
-Your private Battle.net API key is input with the `BATTLENET_API_KEY` environment variable. This must be present in order to get a valid Battle.net API response. There are several ways to set this variable but the easiest is to run your node server with the variable from the command line.
-
-```
-$ sudo BATTLENET_API_KEY=[your_api_key] node server.js
-```
+In order to access the Battle.net API, you must provide a valid Battle.net API key in when you `require()` the Battle.net API within your application.
 
 # Documentation
 
