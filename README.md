@@ -4,7 +4,7 @@ A Node JS wrapper for the Battle.net API
 
 # Install
 
-Add `https://github.com/trevonromanuik/battlenet-api` to your application's `package.json` file and run:
+Add `https://github.com/trevonromanuik/battlenet-api/tarball/master` to your application's `package.json` file and run:
 
 ```
 npm install
@@ -12,7 +12,7 @@ npm install
 
 Alternatively:
 ```
-npm install https://github.com/trevonromanuik/battlenet-api --save
+npm install https://github.com/trevonromanuik/battlenet-api/tarball/master --save
 ```
 
 # How to use
