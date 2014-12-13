@@ -4,13 +4,6 @@ A Node JS wrapper for the Battle.net API
 
 # Install
 
-Add `https://github.com/trevonromanuik/battlenet-api/tarball/master` to your application's `package.json` file and run:
-
-```
-npm install
-```
-
-Alternatively:
 ```
 npm install https://github.com/trevonromanuik/battlenet-api/tarball/master --save
 ```
