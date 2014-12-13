@@ -20,7 +20,7 @@ npm install https://github.com/trevonromanuik/battlenet-api/tarball/master --sav
 Simply `require()` the Battle.net API within your application:
 
 ```javascript
-var bnet = require('battlenet-api')(/*your API KEY here*/');
+var bnet = require('battlenet-api')(/* your API KEY here */);
 ```
 
 And then access the API methods to request data:
