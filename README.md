@@ -26,7 +26,7 @@ var bnet = require('battlenet-api')(/* your API KEY here */);
 And then access the API methods to request data:
 
 ```javascript
-bnet.wow.character.profile(obj, callback);
+bnet.wow.character.profile(params, callback);
 ```
 
 ## Battle.net API Key
@@ -35,7 +35,7 @@ In order to access the Battle.net API, you must provide a valid Battle.net API k
 
 # Documentation
 
-Each API method receives a parameters object for the request, and a callback function to execute once the request has completed. The available request parameters are explained for each method below.
+Each API method takes in a parameters object for the request, and a callback function to execute once the request has completed. The available request parameters are explained for each method below.
 
 Each `callback` function receives two arguments: `error` and `response`.
 
